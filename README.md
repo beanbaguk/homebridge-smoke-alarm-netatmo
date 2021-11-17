@@ -2,7 +2,7 @@
 
 # homebridge-smoke-alarm-netatmo
 
-A netatmo smoke alarm plugin for homebridge.
+A netatmo smoke alarm plugin for homebridge. (Based on a fork of the thermostat plug-in)
 
 To use this plugin, you need to register an application on the Netatmo developer platform
 
