@@ -1,5 +1,5 @@
 {
-    "pluginAlias": "Netatmo-Thermostat",
+    "pluginAlias": "Netatmo-Smoke-Alarm",
     "pluginType": "accessory",
     "singular": true,
     "schema": {
@@ -9,7 +9,7 @@
                 "title": "Name",
                 "type": "string",
                 "required": true,
-                "default": "Netatmo Thermostat"
+                "default": "Netatmo Smoke Alarm"
             },
             "client_id": {
                 "title": "Netatmo App Client ID",
