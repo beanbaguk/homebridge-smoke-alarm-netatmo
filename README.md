@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.org/danpoltawski/homebridge-thermostat-netatmo.svg?branch=master)](https://travis-ci.org/danpoltawski/homebridge-thermostat-netatmo)
 
-# homebridge-thermostat-netatmo
+# homebridge-smoke-alarm-netatmo
 
-A netatmo thermostat plugin for homebridge.
+A netatmo smoke alarm plugin for homebridge.
 
 To use this plugin, you need to register an application on the Netatmo developer platform
 
@@ -16,8 +16,8 @@ To use this plugin, you need to register an application on the Netatmo developer
 
 "accessories": [
     {
-        "accessory": "Netatmo Thermostat",
-        "name": "Thermostat",
+        "accessory": "Netatmo Smoke Alarm",
+        "name": "Smoke Alarm",
         "client_id": "<clientid from https://dev.netatmo.com/>",
         "client_secret": "<secret from https://dev.netatmo.com/>",
         "username": "",
