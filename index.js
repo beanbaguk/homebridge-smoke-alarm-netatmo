@@ -5,10 +5,10 @@ var NetatmoAPI = require('./netatmo-api.js');
 module.exports = function(homebridge){
     Service = homebridge.hap.Service;
     Characteristic = homebridge.hap.Characteristic;
-    homebridge.registerAccessory('homebridge-thermostat-netatmo', 'Netatmo-Thermostat', NetatmoThermostat);
+    homebridge.registerAccessory('homebridge-smoke-alarm-netatmo', 'Netatmo-Smeoke-Alarm', NetatmoSmokeAlarm);
 };
 
-class NetatmoThermostat {
+class NetatmoSmokeAlarm {
     constructor(log, config) {
         this.log = log;
 
